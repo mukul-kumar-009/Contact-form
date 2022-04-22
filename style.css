@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    font-family: Lobster;
+    font-size: 300%;
+    padding: 10px;
+    background-color: rgba(42, 224, 200, 0.514);
+}
+textarea, input[type = "text"],input[type = "email"],input[type = "number"] {
+    background-color: white;
+
+}
+
+* {
+    font-family: Indie Flower ;
+    font-size: medium;
+    font-weight: 700;
+    background-color: rgba(182, 176, 241, 0.589);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border:2px solid black ;
+    overflow: auto;
+}
+input[type = "submit"]{
+    border-radius: 5px;
+    font-size: 200%;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    margin: 5px;
+
+    background-color: tomato;
+}
+input[type = "submit"]:hover {
+    background-color: turquoise;
+    cursor: pointer;
+}
